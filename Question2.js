@@ -1,3 +1,8 @@
+//Branch Name B2_W4_D4
+//Write a for loop starting from last index, and store each element in a new array. Log the array.
+
+
+
 const numArr = [1, 234_45, 89,75, 4e9];
 let numArrSize=numArr.length-1;
 let a=[];

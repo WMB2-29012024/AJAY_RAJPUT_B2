@@ -1,3 +1,8 @@
+//Branch Name B2_W4_D4
+
+// Write a for-loop, and log the current and its immediate next element
+
+
 
 function currAndImmediateNext(arr){
 let store=[];

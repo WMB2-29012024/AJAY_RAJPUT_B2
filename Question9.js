@@ -1,3 +1,9 @@
+//Branch Name B2_W4_D4
+// Write a for-loop, and log the current and its immediate previous element
+
+
+
+
 
 const numArr =currAndImmediatePreviousFromLast([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 console.log(numArr);

@@ -1,3 +1,9 @@
+//Branch Name B2_W4_D4
+
+//Write a for-loop and count frequency of each element in the array. Store the element and its frequency in an object.
+
+
+
 
 // const numArr = countFrequency([1, 2, 3, 4, 1, 5, 6, 2, 8, 8, 8, 10]);
 // console.log(numArr);

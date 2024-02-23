@@ -1,3 +1,8 @@
+//Branch Name B2_W4_D4
+//Write a for loop and log each element, starting from 0th index
+
+
+
 const numArr = [1, 234_45, 89,75, 4e9];
 for(let i=0;i<numArr.length;i++){
     console.log(numArr[i]);

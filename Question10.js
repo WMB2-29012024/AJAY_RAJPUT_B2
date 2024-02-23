@@ -1,3 +1,16 @@
+//Branch Name B2_W4_D4
+/*
+Write a for-loop, and log the current, its immediate previous, and its immediate next element,
+
+Put the elements in a new object, and push that object in an array.
+
+Return that array at the end of the loop
+*/
+
+
+
+
+
 // function currPrevNext(arr) {
 //     let result = [];
 //     for (let i = 0; i < arr.length; i++) {

@@ -1,7 +1,12 @@
+//Branch Name B2_W4_D4
+//Write a for-loop to log every alternate element, starting from last index
+
+
+
 function alternateArrayGeneratorFromLastIndex(arr){
     let store=[];
-    for(let i=(arr.length-1);i>=0;i--){
-        store+=arr[i];
+    for(let i=(arr.length-1);i>=0;i-=2){
+        store.push(arr[i]);
 
     }
     return store;

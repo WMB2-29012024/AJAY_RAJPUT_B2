@@ -1,3 +1,8 @@
+//Branch Name B2_W4_D4
+// Write a for-loop to log every 4th element, starting from last index
+
+
+
 function every4thElementFromLastIndex(arr){
     let store=[];
     for(let i=(arr.length-1); i>=0;i-=4){
