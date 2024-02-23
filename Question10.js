@@ -1,10 +1,23 @@
+// function currPrevNext(arr) {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         let obj = {
+//             previous: i > 0 ? arr[i - 1] : null,
+//             current: arr[i],
+//             next: i < arr.length - 1 ? arr[i + 1] : null
+//         };
+//         result.push(obj);
+//     }
+//     return result;
+// }
 function currPrevNext(arr) {
     let result = [];
     for (let i = 0; i < arr.length; i++) {
-        let obj = {
+        let obj = {}
+        obj = {
+            previous: arr[i - 1] || null,
             current: arr[i],
-            previous: i > 0 ? arr[i - 1] : null,
-            next: i < arr.length - 1 ? arr[i + 1] : null
+            next: arr[i + 1] || null
         };
         result.push(obj);
     }
@@ -14,6 +27,15 @@ function currPrevNext(arr) {
 const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const resultArr = currPrevNext(numArr);
 console.log(resultArr);
+
+
+
+
+
+
+
+
+
 
 
 
