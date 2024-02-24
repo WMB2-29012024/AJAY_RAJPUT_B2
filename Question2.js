@@ -1,5 +1,5 @@
 //Branch Name B2_W4_D4
-//Write a for loop starting from last index, and store each element in a new array. Log the array.
+//Question 2:Write a for loop starting from last index, and store each element in a new array. Log the array.
 
 
 

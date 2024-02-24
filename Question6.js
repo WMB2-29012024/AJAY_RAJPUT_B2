@@ -1,5 +1,5 @@
 //Branch Name B2_W4_D4
-//Write a for-loop to log every 4th element, starting from 0th index
+//Question 6:Write a for-loop to log every 4th element, starting from 0th index
 
 
 
