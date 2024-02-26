@@ -4,4 +4,12 @@
 */
 
 const numArr = [1, 2, 3, 4, 5];
-
+const func=()=>{
+    let sum=0;
+    for(const elem of numArr){
+      sum +=elem;
+    }
+return sum;
+}
+func();
+console.log(func());

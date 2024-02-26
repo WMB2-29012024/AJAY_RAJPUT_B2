@@ -7,9 +7,9 @@ const numArr = [1, 2, 3, 4, 5];
 const func = () => {
     let newNumArr = [];
     for (let i = 0; i < numArr.length; i++) {
-        newNumArr.push(2 * (numArr[i]));
+        newNumArr=(2 * (numArr[i]));
+        console.log(newNumArr);
 
     }
-    console.log(newNumArr);
 }
 func();
