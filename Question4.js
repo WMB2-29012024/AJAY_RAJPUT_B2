@@ -5,3 +5,11 @@
 
 const numArr = [10, 2, 30, 4, 50];
 
+let smallestElement=numArr[0];
+for(let i =0; i<numArr.length;i++){
+if(smallestElement>=numArr[i]){
+    smallestElement=numArr[i];
+}
+}
+console.log(smallestElement);
+
