@@ -50,7 +50,6 @@ class Stack {
             return lastElem
         }
     }
-
 }
 const arr =[4, 5, 2, 25];
 const nextGreaterElem=(arr)=>{
@@ -64,5 +63,5 @@ for(let i=arr.length-1; i>=0;i--){
    newArr[i]=stack.isEmpty()? -1 : stack.peek();
    stack.stackPush(currrElem)
 }
-return newArr}
+return newArr} 
 console.log(nextGreaterElem(arr));
