@@ -62,6 +62,6 @@ const MaxOfAllSubAubArrays=(arr,k)=>{
     while(!queue.isEmpty()){
         output.push(queue.dequeue())
     }
-    return output
+    return output;
 }
 console.log(MaxOfAllSubAubArrays(arr,k));
