@@ -1,10 +1,17 @@
 const inputelem = document.getElementById("input-id");
-const data = document.createElement("p");
 const formBtn = document.querySelector(".form");
+const itemList = document.getElementById("element-list");
 
-formBtn.addEventListener("submit", (e) => {
-  e.preventDefault();
-  data.value=e.target.value  ;
-  console.log(e);
-  inputelem.value = "";
+formBtn.addEventListener("submit", (event) => {
+  event.preventDefault();
+});
+inputelem.addEventListener("change", (event) => {
+    const data = document.createElement("li");
+  inputelem.value = event.target.value;
+  // console.log(inputelem.value);
+  data.innerText = inputelem.value;
+  console.log(data);
+  itemList.appendChild(data);
+  console.log(itemList);
+  inputelem.value=""
 });
