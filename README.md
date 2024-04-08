@@ -1,6 +1,6 @@
 ## Branch Name: B2_W10_D5
 
-**Question:** Make a API call using fetch method that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using async/await and logs the retrieved data to the console.
+**Question:1** Make a API call using fetch method that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using async/await and logs the retrieved data to the console.
 
 _Task breakdown:_
 
@@ -11,7 +11,7 @@ _Task breakdown:_
 
 ---
 
-**Question:** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using the Fetch API with .then() and .catch() methods, and logs the retrieved data to the console.
+**Question:2** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using the Fetch API with .then() and .catch() methods, and logs the retrieved data to the console.
 
 _Task breakdown:_
 
@@ -23,7 +23,7 @@ _Task breakdown:_
 
 ---
 
-**Question:** Develop a JavaScript program that makes an API call using the Fetch API to fetch data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously. The API call should be triggered by clicking a button. Use async/await syntax to handle the asynchronous request and log the retrieved data to the console.
+**Question:3** Develop a JavaScript program that makes an API call using the Fetch API to fetch data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously. The API call should be triggered by clicking a button. Use async/await syntax to handle the asynchronous request and log the retrieved data to the console.
 
 _Task breakdown:_
 
@@ -35,7 +35,7 @@ _Task breakdown:_
 
 ---
 
-**Question:** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using async/await. Display a paragraph element containing the text "Loading" until the data is fetched. After fetching the data, display "Data fetched" if successful or "Failed to fetch Data" if the API call fails.
+**Question:4** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using async/await. Display a paragraph element containing the text "Loading" until the data is fetched. After fetching the data, display "Data fetched" if successful or "Failed to fetch Data" if the API call fails.
 
 _Task breakdown:_
 
@@ -48,7 +48,7 @@ _Task breakdown:_
 
 ---
 
-**Question:** Develop a loader using CSS animations.
+**Question:5** Develop a loader using CSS animations.
 
 _Explanation:_
 
@@ -84,7 +84,7 @@ Create a loader with a spinning animation effect using CSS. Follow these steps t
 
 ---
 
-**Question:** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using async/await. Display "No data" until the data is fetched. After clicking a button initiate the API call and update the loader image accordingly - display a "Data fetched" message if successful or a "Failed to fetch Data" message if the API call fails.
+**Question:6** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using async/await. Display "No data" until the data is fetched. After clicking a button initiate the API call and update the loader image accordingly - display a "Data fetched" message if successful or a "Failed to fetch Data" message if the API call fails.
 
 _Task breakdown:_
 
@@ -100,7 +100,7 @@ _Task breakdown:_
 
 ---
 
-**Question:** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using async/await. Display a "No Data" until the data is fetched. After clicking a button, initiate the API call and update the loader image accordingly - display a "Total Results: {{data.length}}" message if successful or a "Failed to fetch Data" message if the API call fails. Additionally, loop through the fetched data and display it in a list format.
+**Question:7** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)" asynchronously using async/await. Display a "No Data" until the data is fetched. After clicking a button, initiate the API call and update the loader image accordingly - display a "Total Results: {{data.length}}" message if successful or a "Failed to fetch Data" message if the API call fails. Additionally, loop through the fetched data and display it in a list format.
 
 _Task breakdown:_
 
@@ -117,7 +117,7 @@ _Task breakdown:_
 
 ---
 
-**Question:** Develop a JavaScript program that fetches data from the API endpoint "[https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/)" asynchronously when the user clicks a button with the text "Get Data". Upon clicking the button, change its text to a loader and initiate the API call. Upon receiving a response, update the button text to Get Data again and change p tag text to either "Data fetched" or "Failed to fetch data" based on the API call's success or failure.
+**Question:8** Develop a JavaScript program that fetches data from the API endpoint "[https://jsonplaceholder.typicode.com/todos/](https://jsonplaceholder.typicode.com/todos/)" asynchronously when the user clicks a button with the text "Get Data". Upon clicking the button, change its text to a loader and initiate the API call. Upon receiving a response, update the button text to Get Data again and change p tag text to either "Data fetched" or "Failed to fetch data" based on the API call's success or failure.
 
 _Task breakdown:_
 
@@ -129,7 +129,7 @@ _Task breakdown:_
 
 ---
 
-**Question:** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1)" asynchronously using async/await. Display the fetched data in the UI. Implement a "Next" button that, when clicked, updates the number in the URL to fetch the next set of data from the API endpoint ("[https://jsonplaceholder.typicode.com/todos/2](https://jsonplaceholder.typicode.com/todos/2)", "https://jsonplaceholder.typicode.com/todos/3", and so on) and displays it in the UI.
+**Question:9** Develop a JavaScript program that fetches data from the URL "[https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1)" asynchronously using async/await. Display the fetched data in the UI. Implement a "Next" button that, when clicked, updates the number in the URL to fetch the next set of data from the API endpoint ("[https://jsonplaceholder.typicode.com/todos/2](https://jsonplaceholder.typicode.com/todos/2)", "https://jsonplaceholder.typicode.com/todos/3", and so on) and displays it in the UI.
 
 _Task breakdown:_
 
