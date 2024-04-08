@@ -21,15 +21,15 @@ const renderFruitList = (Elems) => {
     console.log(listElem);
   }
 };
-renderFruitList(fruits);
 
 inputElem.addEventListener("keyup", (e) => {
-  inputElem.setAttribute("value", e.target.value);
-  const filteredValue = e.target.value;
-  const filterrdData = [];
-    for (ulElem.filter(listElem.includes(filteredValue))) {
+  renderFruitList(fruits);
+0
+  // inputElem.setAttribute("value", e.target.value);
+  // const filteredValue = e.target.value;
+    // ulElem.map(ulElem.filter(listElem.includes(filteredValue))) {
     
-      console.log("dfds");
-    }
+//       console.log("dfds");
+    // }
   }
 );

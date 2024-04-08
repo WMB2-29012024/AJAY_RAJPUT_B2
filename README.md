@@ -1,12 +1,12 @@
 Branch Name: B2_W10_D4
-**Question:** Show input value
+**Question:1** Show input value
 
 1.  Create an HTML file with an <input> element and a <p> element.
 2.  Add an event listener to the <input> element to detect changes in its value.
 3.  When the value of the <input> changes, update the text content of the <p> element with the new value.
 ---
 
-**Question:** Create a webpage with a form containing two input fields that accept numbers. When the user types numbers into both input fields and clicks a submit button, display the sum of the two numbers in a paragraph below the form.
+**Question:2** Create a webpage with a form containing two input fields that accept numbers. When the user types numbers into both input fields and clicks a submit button, display the sum of the two numbers in a paragraph below the form.
 
 *Task breakdown:*
 
@@ -18,7 +18,7 @@ Branch Name: B2_W10_D4
 6.  Display the sum of the two numbers in a paragraph below the form.
 ---
 
-**Question:** You have a <select> tag (dropdown) with the following options:
+**Question:3** You have a <select> tag (dropdown) with the following options:
 
 -   *Apple*
 -   *Mango*
@@ -27,7 +27,7 @@ Branch Name: B2_W10_D4
 Create a <p> tag to display the currently selected value from the dropdown. Update the text inside the <p> tag dynamically whenever the selection in the dropdown changes.
 ---
 
-**Question:** Create a webpage with two radio buttons labeled "Male" and "Female" for selecting gender. When a user selects one of the radio buttons, display the selected gender below the radio buttons.
+**Question:4** Create a webpage with two radio buttons labeled "Male" and "Female" for selecting gender. When a user selects one of the radio buttons, display the selected gender below the radio buttons.
 
 *Task breakdown:*
 
@@ -36,7 +36,7 @@ Create a <p> tag to display the currently selected value from the dropdown. Upda
 3.  When a radio button is clicked, update the text content of a paragraph element below the radio buttons with the selected gender.
 ---
 
-**Question:** Create a webpage with an <input type="file"> element and a paragraph below it. When the user selects a file using the file input and clicks a submit button, display the name and size of the selected file in the paragraph below.
+**Question:5** Create a webpage with an <input type="file"> element and a paragraph below it. When the user selects a file using the file input and clicks a submit button, display the name and size of the selected file in the paragraph below.
 
 *Task breakdown:*
 
@@ -46,7 +46,7 @@ Create a <p> tag to display the currently selected value from the dropdown. Upda
 4.  Display the name and size of the selected file in the paragraph below.
 ---
 
-**Question:** Create a webpage with an input field that allows users to search for fruits in a list. Below the input field, display a list of 8 fruits. When the user types in the input field, dynamically filter the list to show only the fruits that match the search query.
+**Question:6** Create a webpage with an input field that allows users to search for fruits in a list. Below the input field, display a list of 8 fruits. When the user types in the input field, dynamically filter the list to show only the fruits that match the search query.
 
 *Task breakdown:*
 
