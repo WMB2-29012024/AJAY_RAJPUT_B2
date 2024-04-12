@@ -24,7 +24,7 @@ const promise3 = new Promise((resolve, reject) => {
 // Output: Promise 1 resolved
 ```
 
-**Question: Using Promise.any to Fetch Data Concurrently**
+**Question:2 Using Promise.any to Fetch Data Concurrently**
 
 _Task:_ You are required to modify the provided code to call three promises concurrently using Promise.any syntax. Each promise represents a separate asynchronous operation, such as fetching data from different API endpoints. Once all promises are resolved, log the combined result to the console.
 
@@ -52,7 +52,7 @@ const promise3 = new Promise((resolve, reject) => {
 //  [errors]: [ 'Promise 1 rejected', 'Promise 2 rejected', // 'Promise 3 rejected' ]
 }
 ```
-**Question: Using Promise.all to Fetch Data Concurrently**
+**Question:3 Using Promise.all to Fetch Data Concurrently**
 
 _Task:_ You are required to modify the provided code to call three promises concurrently using Promise.all syntax. Each promise represents a separate asynchronous operation, such as fetching data from different API endpoints. Once all promises are resolved, log the combined result to the console.
 
@@ -78,7 +78,7 @@ const promise3 = new Promise((resolve, reject) => {
 //Output:
 // [ 'Promise 1 resolved', 'Promise 2 resolved', 'Promise 3 resolved' ]
 ```
-**Question: Using Promise.all to Fetch Data Concurrently**
+**Question:4 Using Promise.all to Fetch Data Concurrently**
 
 _Task:_ You are required to modify the provided code to call three promises concurrently using Promise.all syntax. Each promise represents a separate asynchronous operation, Once all promises are resolved, log the combined result to the console.
 
@@ -103,7 +103,7 @@ const promise3 = new Promise((resolve, reject) => {
 
 // Output: Promise 3 reject
 ```
-**Question: Using Promise.all to Fetch Data Concurrently**
+**Question:5 Using Promise.all to Fetch Data Concurrently**
 
 _Task:_ You are required to modify the provided code to call three promises concurrently using Promise.all syntax. Each promise represents a separate asynchronous operation, Once all promises are resolved, log the combined result to the console.
 
@@ -128,7 +128,7 @@ const promise3 = new Promise((resolve, reject) => {
 
 // Output: Promise 1 rejected
 ```
-**Question: Using Promise.race to Fetch Data Concurrently**
+**Question:6 Using Promise.race to Fetch Data Concurrently**
 
 _Task:_ You are required to modify the provided code to call three promises concurrently using Promise.race syntax. Each promise represents a separate asynchronous operation, Once all promises log the combined result to the console.
 
@@ -153,7 +153,7 @@ const promise3 = new Promise((resolve, reject) => {
 
 // Output: Promise 2 resolved
 ```
-**Question: Using Promise.allSettled to Fetch Data Concurrently**
+**Question:7 Using Promise.allSettled to Fetch Data Concurrently**
 
 _Task:_ You are required to modify the provided code to call three promises concurrently using Promise.allSettled syntax. Each promise represents a separate asynchronous operation, Once all promises log the combined result to the console.
 
@@ -184,7 +184,7 @@ const promise3 = new Promise((resolve, reject) => {
 ```
 ---
 
-**Question: Fetching Posts and Comments Based on User Selection**
+**Question:8 Fetching Posts and Comments Based on User Selection**
 
 Task: You are required to create a `<select>` tag with options ranging from 1 to 10. When a user selects a number from the dropdown, fetch posts associated with that user and comments associated with one of those posts from two different API endpoints. Utilize the .then.catch chaining syntax to handle asynchronous operations and error scenarios.
 
@@ -205,7 +205,7 @@ Task: You are required to create a `<select>` tag with options ranging from 1 to
 
 ---
 
-**Question: Searching and Displaying Posts**
+**Question:9 Searching and Displaying Posts**
 
 Task: You are required to implement a feature that allows users to search for posts by title using a search input field. Upon entering a search query, the UI should dynamically update to display only the filtered posts.
 
