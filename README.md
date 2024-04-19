@@ -1,0 +1,2 @@
+Assignment Description:
+In this assignment, you will implement a responsive header with a navigation sidebar using HTML, CSS, and JavaScript. The header should contain a logo on the left side and navigation links on the right side. Additionally, there should be a hamburger menu icon that, when clicked, reveals a sidebar with the same navigation links.
