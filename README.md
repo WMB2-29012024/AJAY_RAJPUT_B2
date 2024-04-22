@@ -1,0 +1,1 @@
+Questions 2. Create this Loader Animation:<br>![Cloudinary](https://res.cloudinary.com/dzzysrpcm/image/upload/v1713777962/Web%20Masters/Questions/ScreenRecording2024-04-22at2.52.35PM-ezgif.com-video-to-gif-converter_aj7s8r.gif)
