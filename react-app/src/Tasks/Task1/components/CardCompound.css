@@ -1,0 +1,14 @@
+.card-container{
+    background-color: rgb(213, 253, 240);
+    border:2px solid rgb(132, 168, 196);
+    padding:20px;
+    border-radius: 5px;
+    width:20vh;
+    height:300px;
+    text-overflow: ellipsis;
+    overflow-y: scroll;
+    >h2{color: darkgrey;}
+    >p{
+        color:rgb(41, 113, 125)
+    }
+}

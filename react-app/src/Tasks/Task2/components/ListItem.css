@@ -1,0 +1,6 @@
+.lists{
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
