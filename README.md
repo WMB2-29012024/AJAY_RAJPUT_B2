@@ -1,0 +1,3 @@
+**Question 1:** Create a component named UserVotingStatus.jsx. This component will accept the 'age' as a prop and display the voting status based on the provided age. If the passed age is above 18, it will display the message "You can vote now". Otherwise, it will display "Your age is below 18. You can't vote now." when the age is below 18.
+![enter image description here](https://res.cloudinary.com/drls2rzqs/image/upload/v1714909828/cdeesa435olo8i4dtbv0.png)
+![enter image description here](https://res.cloudinary.com/drls2rzqs/image/upload/v1714910665/lyvkivwuydjhclgpqqht.png)
