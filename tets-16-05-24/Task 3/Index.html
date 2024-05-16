@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script >
+
+const calculateLetterGrade=(value)=>{
+    let grade="";
+if(value<=100 && value>=90){
+    return grade="A"
+}
+else if(value<=89 && value>=80){
+    return grade="B"
+}
+else if(value<=79 && value>=70){
+    return grade="C"
+}
+else if(value<=69 && value>=60){
+    return grade="D"
+}
+else if(value<=59 && value>=0){
+    return grade="F"
+}
+}
+const value=25
+calculateLetterGrade(value)
+console.log(calculateLetterGrade(value));
+    </script>
+</body>
+</html>

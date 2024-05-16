@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script >
+
+const countOccurrences=(str, char)=>{
+   let count=0;
+for(let i=0;i<str.length;i++){
+    if(str[i]==char){
+        count++
+    }
+}
+
+return count
+}
+const str="hello world";
+const char="o";
+countOccurrences(str,char)
+console.log(countOccurrences(str,char));
+    </script>
+</body>
+</html>
