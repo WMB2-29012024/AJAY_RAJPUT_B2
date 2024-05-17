@@ -1,0 +1,11 @@
+.ShowEntries{
+    display: flex;
+    justify-content: space-between;
+    width:144px;
+    gap:8px;
+    >.select-entries{
+        border:none;
+        background-color:#d9d8da;
+        border-radius: 8px;
+    }
+}

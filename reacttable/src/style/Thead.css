@@ -1,0 +1,16 @@
+.table-title{
+    width: 100vw;
+    display: flex;
+    height:64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    width: 12.5vw;
+    text-align: center;
+    vertical-align: middle;
+    }
