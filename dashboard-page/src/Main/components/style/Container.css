@@ -1,0 +1,11 @@
+.container{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.Projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

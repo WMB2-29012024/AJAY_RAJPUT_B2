@@ -1,0 +1,26 @@
+.Projectlist{
+    display: flex;
+    gap:8px;
+}
+.class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:36px;
+    height:36px;
+    border-radius: 10px;
+    background-color:#FFAFC7;
+}
+
+.project-information{
+    display: flex;
+    flex-direction: column;
+}
+.ProjectName{
+ font-family: "Inter";
+ width: 38px;
+height: 18px;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+}
