@@ -1,0 +1,82 @@
+
+*{box-sizing: border-box;}
+.container{
+    width:400px;
+    height:700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:3vh;
+    box-shadow: -.5px 2px 2px black;
+}
+.title{
+    width:400px;
+    height: 120px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-main{
+    width:360px;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.threeDot{
+
+    width:40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    background-color: rgb(244, 150, 150);
+    color:white;
+}
+.info{
+    padding: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:10px;
+/* align-items: center; */
+ width:270px;
+height:80px;
+}
+.img{
+    width:400px;
+    height:400px;
+    object-fit: cover;
+}
+.text1{
+    font-weight: 700;
+    /* height: 40px; */
+}
+.text2{
+    font-weight: 500;
+    /* height: 40px; */
+
+    color: gray;
+}
+.rating{
+    width:400px;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.love-share{
+    width:80px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
