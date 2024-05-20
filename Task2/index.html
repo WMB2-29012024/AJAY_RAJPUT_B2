@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const s="rat";
+        const k=s.split("")
+        const t='car';
+        const l=t.split('')
+
+        if(k.length!==l.length){
+            console.log(false);
+        }
+        else{
+
+            for(let i=k.length; i>0;i--){
+                l.map(value=>{
+                    if(value==k[i]){
+                        k.splice(value)    }
+                    }
+                    
+                )       
+            } 
+            if (k.length==0){ console.log(true)};
+        }
+    </script>
+</body>
+</html>

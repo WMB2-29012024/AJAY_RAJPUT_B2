@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nums=[3,2,2,3]
+        const  val = 3;
+for(let i=0;i<nums.length;i++)      {
+
+    if(nums[i]==val){
+        nums.splice(i,1)
+        nums.push("_")
+    }
+}
+
+        console.log(nums);
+
+    </script>
+</body>
+</html>
