@@ -8,25 +8,35 @@
 <body>
     <script>
         const s="rat";
-        const k=s.split("")
-        const t='car';
+        const k=s.split("") //r , a, t
+        const t='bar';      // t , a ,r
         const l=t.split('')
 
-        if(k.length!==l.length){
-            console.log(false);
-        }
-        else{
+const anangram=(k,l)=>{
 
-            for(let i=k.length; i>0;i--){
-                l.map(value=>{
-                    if(value==k[i]){
-                        k.splice(value)    }
-                    }
-                    
-                )       
-            } 
-            if (k.length==0){ console.log(true)};
-        }
+    
+    if(k.length!==l.length){
+        console.log(false);
+    }
+    else{
+        k.sort();
+            l.sort();
+            console.log(k);
+            console.log(l);
+            for (let i = 0; i < k.length; i++) {
+                if (k[i] !== l[i]) {
+                    return false;
+                }
+            }
+            return true;
+        };
+    
+}
+
+
+
+anangram(k,l)
+console.log(anangram(k,l));
     </script>
 </body>
 </html>
