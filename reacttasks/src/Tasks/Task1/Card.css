@@ -1,0 +1,55 @@
+*{
+
+    font-family: "Inter";
+}
+.Card {
+    display: flex;
+    flex-direction: column  ;
+  width: 360px;
+  height: 218px;
+  background-color: #7949ff;
+  border-radius: 12px;
+  padding: 24px 16px;
+  gap:16px;
+  position: relative;
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  height: 32px;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: goldenrod;
+}
+.user-name {
+    color:#e9e1ff    ;
+}
+.position {
+  border-radius: 4px;
+  color: #7949ff;
+  padding: 4px;
+  background-color: #e9e1ff;
+}
+.description{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    color:#e9e1ff    ;
+    line-height: 29.05px;
+    letter-spacing: -0.04em;
+    
+}
+.location{
+    display: flex;
+    color:#e9e1ff    ;
+
+    position: absolute;
+    bottom: 24px;
+    left:16px;
+    gap:8px;
+}

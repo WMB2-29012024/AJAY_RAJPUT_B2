@@ -1,0 +1,17 @@
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.btn{
+    background-color: rgb(237, 206, 159);
+    width:80px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+}
