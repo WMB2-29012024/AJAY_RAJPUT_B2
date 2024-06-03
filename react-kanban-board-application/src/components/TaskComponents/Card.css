@@ -1,0 +1,37 @@
+.card-drag-parent{
+width:100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    width: 100%;
+    cursor: grab;
+}
+.Card:active{
+    opacity: 0.8;
+}
+#addcard-value{
+    outline: none;
+    border:none;
+    width:70%;  
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+.deleteCardButton{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.parent-title--delete{
+    display: flex;
+    width: 100%;
+    padding:0 20px;
+justify-content:space-between;  
+}

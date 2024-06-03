@@ -1,0 +1,10 @@
+.drophere{
+    opacity: 1;
+    font-size: smaller;
+    width:20vw;
+    height:auto;
+    text-align: center;
+    transition: all 0.2s ease-in-out
+}
+.hide-drop-area{
+opacity: 0;}

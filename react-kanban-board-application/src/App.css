@@ -1,0 +1,13 @@
+.App{
+  display:flex;
+  flex-direction: column;
+  width:100vw;
+  height:100vh;
+align-items: center;
+color:rgb(26, 26, 88);
+
+}
+.App h1{
+  
+  font-size: clamp(25px, 10vw, 50px);
+}

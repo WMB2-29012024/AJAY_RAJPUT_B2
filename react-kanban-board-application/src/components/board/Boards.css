@@ -1,0 +1,40 @@
+.Boards {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.Add-Board {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Add-Board p {
+  font-size: clamp(20px, 6vw, 38px);
+  background-color: rgb(185, 198, 202);
+  border-radius: 15px 0 0 15px;
+  text-wrap: nowrap;
+  padding: 0 0 0 1vw;
+  color: rgb(77, 37, 74);
+  height: 100%;
+}
+.Add-Board button {
+  background-color: rgb(131, 137, 137);
+  border-radius: 0 15px 15px 0;
+  color: rgb(77, 37, 44);
+  font-size: clamp(20px, 6vw, 38px);
+  /* width: 35px; */
+  padding: 0 1vw;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.Boardlist {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh 5vw;
+}
