@@ -1,0 +1,7 @@
+body {
+  background-color: rgb(185, 202, 212);
+}
+#table-body {
+  text-align: center;
+  border: 2px solid rgb(22, 119, 133);
+}
