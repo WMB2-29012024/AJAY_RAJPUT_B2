@@ -1,0 +1,1 @@
+Extend on the HTML from the previous question, show your name using the background-clip property on it with a bg image and show surname in a separate colour, each field in a different background colour, add an image as the background of the main parent div, add a background colour on the entire page.
